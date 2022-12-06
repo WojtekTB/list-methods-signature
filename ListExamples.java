@@ -18,6 +18,10 @@ class ListExamples {
     return result;
   }
 
+  static List<String> filter(List<String> list, StringChecker sc) {
+    return filter(sc, list);
+  }
+
 
   // Takes two sorted list of strings (so "a" appears before "b" and so on),
   // and return a new list that has all the strings in both list in sorted order.
